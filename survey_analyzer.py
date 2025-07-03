@@ -23,4 +23,7 @@ no_to_any = [
 print(f"People who answered 'No' to any question: {no_to_any}")
 print(f"Total: {len(no_to_any)}") 
 
+#Added percentage calculation for survey responses
+print(f"Percentage of 'No' responses: {len(no_to_any) / len(survey_results) * 100:.2f}%")
+print(f"Percentage of 'Yes' responses: {len(yes_to_all) / len(survey_results) * 100:.2f}%")
 
